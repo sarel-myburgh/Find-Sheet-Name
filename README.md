@@ -1,12 +1,16 @@
 # Purpose
 
-This AppScript searches an entire Google Worksheet for a specific value, and then returns the name of the sheet it was found in.
+This AppScript searches an entire Google Worksheet for a specific value, and then returns the name of the sheet it was found in. The value you are searching for can be in any cell and is not limited to a particular column or row.
 
 # Example
 You have a Worksheet called Departments. In Departments you have the following sheets: Management, IT, Finance, Marketing.
 
 You can add another sheet called Search. Add the name of the person you are looking for in A1, and in B1 the formula =findSheetName(A1), this will then find the name of the sheet where that name is. 
 So if Bob Marley is present in the Management sheet, B1 will have the value "Management".
+
+![image](https://github.com/sarel-myburgh/Find-Sheet-Name/assets/165235051/ef5cfb21-de02-439e-b73f-8ebf22c5c010)
+
+![image](https://github.com/sarel-myburgh/Find-Sheet-Name/assets/165235051/ae5332f6-9e03-4aac-864f-0f0cf16777b0)
 
 
 
